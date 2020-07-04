@@ -1,0 +1,67 @@
+<style>
+    * {
+     box-sizing: border-box;
+    }
+    body {
+     font-family: Arial;
+     padding: 10px;
+     background: #f2f2f2;
+    }
+    /* Header/Blog Title */
+    .header {
+     padding: 30px;
+     text-align: center;
+    }
+    .header h1 {
+     font-size: 50px;
+    }
+    #menu ul {
+     list-style-type: none;
+     background-color: black;
+     text-align: center;
+    }
+    #menu ul li{
+     color: darkred;
+     display:inline-table;
+     width: 100px;
+     height: 40px;
+     line-height: 40px;
+     position: relative;
+    }
+    #menu ul li a {
+     color:white;
+     text-decoration: none;
+     display: block;
+     width:150px;
+    }
+    #menu ul li a:hover{
+     background-color: darkred;
+     color: white;
+    }
+    #menu ul li > .subMenu{
+     display: none;
+     position: absolute;
+     width: 250px;
+    }
+    #menu ul li:hover .subMenu{
+     display:block;
+    }
+         </style>
+    </head>
+    <body>
+        <!-- Create The Logo for website -->
+        <div class="header">
+            <h1>ATN Shop</h1>
+        </div>
+        <!-- Create menu bar for website -->
+        <div id="menu">
+            <ul>
+                <li><a href="/">Home</a> </li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/order">Order</a> </li>
+                <li><a href="/staffs">Staff</a></li>
+                <li><a href="/Login">Login</a></li>
+            </ul>
+        </div>
+    </body>
+    
